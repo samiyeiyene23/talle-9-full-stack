@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taller de Full stack</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <!-- CONTENEDOR PRINCIPAL BODY (sub contenedores header,main, footer) -->
 
   <body>
     <header>
-      <div>
+      <!--CSS PARA CADA DIV UNA CLASE-->
+      <div class="header__navegation">
         <img src="./Public/Imagenes/header-logo.png" alt="main-logo" />
         <nav>
           <ul>
@@ -21,7 +27,7 @@
           </ul>
         </nav>
       </div>
-      <div>
+      <div class="header__settings">
         <div>
           <img src="./Public/Imagenes/header-world.png" alt="world" />
           <span>Español</span>
@@ -40,8 +46,8 @@
           </p>
 
           <div>
-            <button>Saber Mas</button>
-            <button>Planes</button>
+            <button class="button--orange">Saber Mas</button>
+            <button class="button--white">Planes</button>
           </div>
         </div>
         <img
@@ -51,7 +57,7 @@
           height="350px"
         />
       </section>
-      <section id="section 1">
+      <section id="section-1">
         <div>
           <h2>Por qué elegirnos a nosotros</h2>
           <p>
@@ -102,7 +108,7 @@
               Las herramientas digitales son nuestras aliadas y aprovechamos
               cada una de estas para brindarte la mejor experiencia en línea
             </p>
-            <button>Saber Más</button>
+            <button class="button--orange">Saber Más</button>
           </div>
         </div>
         <div>
@@ -113,7 +119,7 @@
               Es importante para nosotros que las metas de cada uno de nuestros
               estudiantes sea aalcanzada através de nuestros cursos.
             </p>
-            <button>Saber Más</button>
+            <button class="button--orange">Saber Más</button>
           </div>
           <img
             src="./Public/Imagenes/section2-goals.png"
