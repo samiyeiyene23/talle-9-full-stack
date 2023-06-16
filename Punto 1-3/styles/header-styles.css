@@ -1,0 +1,48 @@
+/*----ESTILOS HEADER*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+/* class para modificar div */
+.header__navegation{
+    display: flex;
+    align-items: center;
+}
+
+/* class para modificar div de botones*/
+.header__navegation nav ul {
+    display: flex;
+    gap: 45px;
+    list-style: none ;  
+}
+
+.header__navegation nav ul li a{
+    text-decoration: none;
+    color:#454868;
+}
+/* cantenedor tiene imagen español 
+y boton*/
+.header__settings {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+/* para el contenedor que la imagen y 
+español este centrado*/
+.header__settings div{
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    font-family: Jost;
+    font-size: 16PX;
+    font-weight: 400;
+}
+
+.header__settings button{
+    background-color: transparent;
+    border: 1px solid #45486854;
+}
