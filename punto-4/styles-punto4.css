@@ -5,3 +5,12 @@
 #titulo-2 {
     color: red;
 }
+
+header {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}

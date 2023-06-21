@@ -1,0 +1,42 @@
+/*sin margen el contenedor principal body*/
+body {
+    margin: 100px 300px 300px 100px;
+}
+
+/*bordes  grosor del borde, estilo, color  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    height: 80px;
+    margin: 10px 120px;
+}
+
+/*cursos una manito hay diferentes tipos de cursores*/
+header img {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+a {
+    color: white;
+}
+
+/* afecta a contenedor nav las a*/
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px white;
+}
+
+.color_azul {
+    background-color: blue;
+    color: blue;
+}
