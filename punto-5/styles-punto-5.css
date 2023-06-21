@@ -1,0 +1,30 @@
+u {
+    color: green;
+}
+
+.color_azul {
+    color: blue;
+    font-size: 22px;
+
+}
+
+.color_rojo {
+    color: red;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.subrayado {
+    text-decoration: underline overline;
+}
+
+.color__rojo {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+strong {
+    font-size: 40px;
+}
