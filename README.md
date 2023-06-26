@@ -15,3 +15,19 @@ Link de Pagina</a>
 <h2>Punto 3: CSS</h2>
 <img src="./Public/images/css.png.png" alt="css">
 
+<h2>Punto 4: CSS</h2>
+<img src= "./Public/images/punto4.png.png" alt="punto4">
+
+<h2>Punto 5: CSS</h2>
+<img src= "./Public/images/punto5.png.png" alt="punto5">
+
+
+<h2>Punto 6: CSS</h2>
+<img src= "./Public/images/punto6.png.png" alt="punto6">
+
+<h2>Punto 7-8: CSS</h2>
+<img src= "./Public/images/punto7-8.png.png" alt="punto7-8">
+
+
+<h2>Punto 9: CSS</h2>
+<img src= "./Public/images/punto9.png.png" alt="punto9">
