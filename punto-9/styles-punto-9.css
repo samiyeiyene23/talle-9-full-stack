@@ -1,0 +1,23 @@
+.tabla {
+    background: yellow;
+    border-top: 1px dotted;
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+th {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.tabla td {
+    text-align: justify;
+    border: 1px dotted;
+}
+
+.borde td {
+    border-bottom: 1px red dotted;
+}

@@ -14,9 +14,7 @@ header {
 }
 
 /*cursos una manito hay diferentes tipos de cursores*/
-header img {
-    cursor: pointer;
-}
+header {}
 
 nav ul {
     display: flex;
@@ -39,4 +37,18 @@ nav a {
 .color_azul {
     background-color: blue;
     color: blue;
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: blue;
+    cursor: pointer;
 }

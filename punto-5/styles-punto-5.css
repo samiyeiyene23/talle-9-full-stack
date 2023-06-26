@@ -30,5 +30,11 @@ strong {
 }
 
 div {
-    margin: 0px 100px 100px 175px;
+    margin: 0px 230px 0px 230px;
+}
+
+/* ajustar nombres  */
+
+.box {
+    width: 55%;
 }
